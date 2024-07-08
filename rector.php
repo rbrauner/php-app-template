@@ -13,8 +13,8 @@ return RectorConfig::configure()
     ->withPaths([
         __DIR__ . '/src',
         __DIR__ . '/tests',
-        // __DIR__ . '/.php-cs-fixer.dist.php',
-        // __DIR__ . '/rector.php',
+        __DIR__ . '/.php-cs-fixer.dist.php',
+        __DIR__ . '/rector.php',
     ])
     ->withSkip([
         __DIR__ . '/vendor',
@@ -39,4 +39,4 @@ return RectorConfig::configure()
     ->withSkip([
         RemoveNonExistingVarAnnotationRector::class,
     ])
-;
+    ->withImportNames(removeUnusedImports: true);
