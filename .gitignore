@@ -1,6 +1,6 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
-# Created by https://www.toptal.com/developers/gitignore/api/composer,git,linux,macos,php-cs-fixer,phpstorm,phpstorm+all,phpstorm+iml,phpunit,vim,visualstudiocode,windows
-# Edit at https://www.toptal.com/developers/gitignore?templates=composer,git,linux,macos,php-cs-fixer,phpstorm,phpstorm+all,phpstorm+iml,phpunit,vim,visualstudiocode,windows
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,linux,composer,git,macos,php-cs-fixer,phpcodesniffer,phpstorm,phpstorm+all,phpstorm+iml,phpunit,vim,windows
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,linux,composer,git,macos,php-cs-fixer,phpcodesniffer,phpstorm,phpstorm+all,phpstorm+iml,phpunit,vim,windows
 
 ### Composer ###
 composer.phar
@@ -82,6 +82,13 @@ Temporary Items
 
 # Local config See: https://cs.symfony.com/doc/config.html
 .php-cs-fixer.php
+
+### PHPCodeSniffer ###
+# CodeSniffer
+phpcs.xml
+
+/vendor/*
+/wpcs/*
 
 ### PhpStorm ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
@@ -391,8 +398,9 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/composer,git,linux,macos,php-cs-fixer,phpstorm,phpstorm+all,phpstorm+iml,phpunit,vim,visualstudiocode,windows
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,linux,composer,git,macos,php-cs-fixer,phpcodesniffer,phpstorm,phpstorm+all,phpstorm+iml,phpunit,vim,windows
 
-###> username/php-app ###
-/.phpcs-cache
-###< username/php-app ###
+# Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
+
+###> rbrauner/apilo-recruitment-task ###
+###< rbrauner/apilo-recruitment-task ###
