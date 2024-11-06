@@ -1,0 +1,26 @@
+{
+    "name": "username/php-app",
+    "description": "PHP App",
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "username",
+            "email": "email@example.com"
+        }
+    ],
+    "require": {
+        "php": "8.3.13",
+        "composer/composer": "^2.8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    }
+}
