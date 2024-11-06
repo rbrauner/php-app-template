@@ -395,4 +395,6 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/git,vim,linux,macos,windows,visualstudiocode,phpstorm,phpstorm+all,phpstorm+iml,composer,phpunit,,php-cs-fixer
 
 ###> username/php-app ###
+/.env
+/compose.override.yaml
 ###< username/php-app ###
