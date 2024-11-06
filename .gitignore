@@ -1,7 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/git,vim,linux,macos,windows,visualstudiocode,phpstorm,phpstorm+all,phpstorm+iml,composer,phpunit,,php-cs-fixer
-# Edit at https://www.toptal.com/developers/gitignore?templates=git,vim,linux,macos,windows,visualstudiocode,phpstorm,phpstorm+all,phpstorm+iml,composer,phpunit,,php-cs-fixer
-
-#!! ERROR:  is undefined. Use list command to see defined gitignore types !!#
+# Created by https://www.toptal.com/developers/gitignore/api/git,vim,linux,macos,windows,visualstudiocode,phpstorm,phpstorm+all,phpstorm+iml,composer,phpunit,php-cs-fixer
+# Edit at https://www.toptal.com/developers/gitignore?templates=git,vim,linux,macos,windows,visualstudiocode,phpstorm,phpstorm+all,phpstorm+iml,composer,phpunit,php-cs-fixer
 
 ### Composer ###
 composer.phar
@@ -392,7 +390,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/git,vim,linux,macos,windows,visualstudiocode,phpstorm,phpstorm+all,phpstorm+iml,composer,phpunit,,php-cs-fixer
+# End of https://www.toptal.com/developers/gitignore/api/git,vim,linux,macos,windows,visualstudiocode,phpstorm,phpstorm+all,phpstorm+iml,composer,phpunit,php-cs-fixer
 
 ###> username/php-app ###
 /.env
