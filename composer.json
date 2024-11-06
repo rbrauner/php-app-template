@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "8.3.13",
-        "composer/composer": "^2.8.2"
+        "composer/composer": "^2.8"
     },
     "require-dev": {
         "enlightn/security-checker": "^2.0",
